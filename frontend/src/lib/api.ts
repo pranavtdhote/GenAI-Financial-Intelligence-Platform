@@ -1,8 +1,4 @@
 function getApiBase(): string {
-  if (typeof window !== "undefined") {
-    // Use relative URL - Next.js rewrites /api/v1/* to backend (no CORS, works for localhost + LAN)
-    return "/api/v1";
-  }
   return process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
 }
 
