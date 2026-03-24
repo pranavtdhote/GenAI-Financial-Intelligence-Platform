@@ -34,3 +34,5 @@ chromadb==0.4.24
 
 # Embeddings (CONTROLLED)
 sentence-transformers==2.6.1
+
+openai==1.30.5
