@@ -1,34 +1,36 @@
 # FastAPI & Server
-fastapi==0.115.5
-uvicorn[standard]==0.32.1
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
 
 # Data Validation & Settings
-pydantic==2.10.3
-pydantic-settings==2.6.1
+pydantic==2.6.4
+pydantic-settings==2.2.1
 
-# Environment & Configuration
+# Environment
 python-dotenv==1.0.1
 
-# Security
-python-multipart==0.0.17
+# File Handling
+python-multipart==0.0.9
+aiofiles==23.2.1
 
-# Utilities
-aiofiles==24.1.0
+# PDF Processing
+pymupdf==1.23.26
 
-# Document Processing
-pymupdf==1.25.2
+# OCR (SAFE HANDLING)
 pytesseract==0.3.13
-Pillow==11.0.0
+Pillow==10.3.0
 
-# Financial Structuring (NER)
-spacy>=3.7.0,<4.0.0
+# NLP (LIGHTER INSTALL)
+spacy==3.7.2
 
-# Groq API (LLM Intelligence Layer) - uses OpenAI-compatible SDK
-groq>=0.4.0,<1.0.0
+# LLM
+groq==0.9.0
 
 # Knowledge Graph
-networkx>=3.2,<4.0
+networkx==3.2.1
 
-# Vector Database (ChromaDB + Embeddings)
-chromadb>=0.4.22,<0.5.0
-sentence-transformers>=2.2.0,<3.0.0
+# Vector DB (SAFE VERSION)
+chromadb==0.4.24
+
+# Embeddings (CONTROLLED)
+sentence-transformers==2.6.1
